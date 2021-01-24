@@ -66,3 +66,6 @@ eureka:
   instance:
     instanceId: ${spring.application.name}:${server.port}-hystrix # 指定实例ID,就不会显示主 机名了
     preferIpAddress: true #访问路径可以显示IP地址
+    
+emp:
+  name: zhangsan
